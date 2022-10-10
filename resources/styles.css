@@ -1,0 +1,33 @@
+
+nav ul{
+    width: 100%;
+    text-align: center;
+    max-width: 90%;
+}
+
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+    width: max-content;
+    
+}
+
+button{
+    width: max-content;
+}
+header h1{
+    width: 100%;
+    color:burlywood;
+    text-align: center;
+    max-width: 100%;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+header{
+    background-color: aquamarine;
+}
+footer{
+    text-align: center;
+}
