@@ -63,6 +63,12 @@ nav {
     margin-right: 3px;
 }
 
+h1{
+    font-size: 2em;
+    font-family: "Proza Libre", sans-serif;
+
+}
+
 h2{
     display: block;
     font-size: 1.5em;
@@ -83,7 +89,7 @@ p {
     margin-inline-end: 0px;
     padding: 3px;
     line-height: 1.2em;
-    text-align: justify;
+    text-align: left;
 }
 
 .portrait {
@@ -101,7 +107,7 @@ p {
         flex-wrap: wrap;
         
     }
-.fa-brands{
+.fa-brands, .fa-solid{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -112,6 +118,18 @@ p {
     font-size: 2em;
     width: 2em;
     margin-top: var(--spacing-1);
+}
+
+footer {
+    margin: 30px;
+    padding: var(--spacing-2) 0;
+    text-align: center;
+    display: block;
+}
+
+footer a {
+    text-decoration: none;
+    color: #323232;
 }
 
 @media only screen and (max-width: 600px){

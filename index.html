@@ -9,13 +9,13 @@
  
 <body>
     <header>
-      <nav>
+      <nav id = "nav-bar">
         <h1 class = "name-title">Joey Teixeira</h1>
         <ul class = "nav-bar">
           <li class = "nav-bar"><a href ="#about-me">About me</a></li>
           <li class = "nav-bar"><a href ="#expirience">Expirience</a></li>
-          <li class = "nav-bar"><a href ="#skills">Skills</a></li>
           <li class = "nav-bar"><a href ="#education">Education</a></li>
+          <li class = "nav-bar"><a href ="#skills">Skills</a></li>
           <li class = "nav-bar"><a href ="">Contact</a></li>
         </ul>
       </nav>
@@ -50,11 +50,11 @@
       </div>
 
     </section>
-    <section>
-      <h2>Expirience</h2>
+    <section class = "section-title">
+      <h2 id = "expirience">Expirience</h2>
       <ul>
-          <li><h3>Front-End-Developement Intern</h3> <p>Eatozee, a SaaS startup | Sept 2021 - April 2022</p></li>
-          <li><h3>Fairmont Scottsdale Princess Hotel and Resort, Associate</h3><p>Nov 2016 - Jul 2022</p>
+          <li><h3>Front-End Developement Intern</h3> <p>Eatozee, a SaaS startup | Sept 2021 - April 2022</p></li>
+          <li><h3>Fairmont Scottsdale Princess Hotel, Associate</h3><p>Nov 2016 - Jul 2022</p>
               <p>During my 6 year tenure at the Fairmont, I worked in multiple deparments, performing multiple roles
                   <br>
                   These roles include:
@@ -72,32 +72,33 @@
       </ul>
   </section>
 
-  <section>
-    <h1>Education</h1>
-    <ul>
-        <li><h2>Arizona State University</h2><p>Bachelors of Science, Computer Science | Graduated May 2022</p></li>
-        <li><h2>Paradise Valley Community College</h2><p>Associates of Science | Graduated December 2019</p></li>
-        <li><h2>Pinnacle High School</h2><p>Graduated May 2016</p></li>
-    </ul>
-</section>
-<section>
-    <h1>Certificates</h1>
+  <section class = "section-title">
+    <h2>Certificates</h2>
     <p>In leui of Professional Expirience, I have completed multipled Codecademy courses to enhance the learning of my Degree
-        <strong>change the wording here</strong>
-        <br>
-        These certificates are listed below
     </p>
     <ul>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
-        <li>Placeholder</li>
+        <li>Front-End Engineer Career Path <aside>in progress</aside></li>
+        <li>Learn React   <a target = "_blank" href = "./resources/react_certificate.pdf">Certificate</a></li>
+        <li>Learn Javascript   <a target = "_blank" href = "./resources/javascript_certificate.pdf">Certificate</a></li>
+        <li>Learn Css   <a target = "_blank" href = "./resources/css_certificate.pdf">Certificate</a></li>
+        <li>Learn HTML   <a target = "_blank" href = "./resources/html_certificate.pdf">Certificate</a></li>
+        <li>Create React App    <a target = "_blank" href = "./resources/react-app_certificate.pdf">Certificate</a></li>
     </ul>
 </section>
 
-  <section>
+  <section class = "section-title">
+    <h2 id = "education">Education</h2>
+    <ul>
+        <li><h3>Arizona State University</h3><p>Bachelors of Science, Computer Science | Graduated May 2022</p></li>
+        <li><h3>Paradise Valley Community College</h3><p>Associates of Science | Graduated December 2019</p></li>
+        <li><h3>Pinnacle High School</h3><p>Graduated May 2016</p></li>
+    </ul>
+</section>
+
+
+  <section class = "section-title">
+    <h2 id = "skills">Skills</h2>
     <div id = "skills-container">
-      <h2>Skills</h2>
       <i class="fa-brands fa-react"></i>
       <i class="fa-brands fa-js"></i>
       <i class="fa-brands fa-html5"></i>
@@ -110,8 +111,12 @@
       <i class="fa-solid fa-terminal"></i>
       <i class="fa-solid fa-universal-access"></i>
       <i class="fa-brands fa-figma"></i>
+      <i class="fa-solid fa-database"></i>
     </div>
   </section>
   </main>
+  <footer>
+    <a href="#nav-bar">Return to Top</a>
+  </footer>
 </body>
 </html>
